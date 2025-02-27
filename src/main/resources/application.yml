@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/vollmed_api
+    username: root
+    password: sasa
+  profiles:
+      active: dev
+      #active: dev , test, prod
+
+api:
+  security:
+    secret: ${JWT_SECRET:123456}

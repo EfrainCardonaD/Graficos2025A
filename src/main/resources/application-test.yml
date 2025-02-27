@@ -1,0 +1,13 @@
+
+spring:
+  profiles:
+    active: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/vollmed_api_test?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: sasa
+
+api:
+  security:
+    secret: ${JWT_SECRET:123456}

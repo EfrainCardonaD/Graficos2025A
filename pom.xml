@@ -8,11 +8,11 @@
         <version>3.0.2</version>
         <relativePath/>
     </parent>
-    <groupId>com.mod.voll</groupId>
+    <groupId>cut.raices.api</groupId>
     <artifactId>api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>MedVoll</name>
-    <description>MedVoll</description>
+    <name>CutRaices</name>
+    <description>CutRaices</description>
     <properties>
         <java.version>17</java.version>
     </properties>
